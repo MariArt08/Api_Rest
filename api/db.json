@@ -1,0 +1,37 @@
+{
+  "habilidades": [
+    { "id": 1, "nombre": "Java", "nivel": "Intermedio", "categoria": "Lenguaje" },
+    { "id": 2, "nombre": "PostgreSQL", "nivel": "Intermedio", "categoria": "Base de datos" },
+    { "id": 3, "nombre": "WordPress", "nivel": "Básico", "categoria": "CMS" },
+    { "id": 4, "nombre": "PHP", "nivel": "Intermedio", "categoria": "Lenguaje" },
+    { "id": 5, "nombre": "JavaScript", "nivel": "Intermedio", "categoria": "Lenguaje" }
+  ],
+  "intereses": [
+    { "id": 1, "nombre": "Desarrollo web", "descripcion": "Crear aplicaciones y sitios web." },
+    { "id": 2, "nombre": "Bases de datos", "descripcion": "Diseñar y consultar bases de datos." },
+    { "id": 3, "nombre": "Redes FTTH/HFC", "descripcion": "Infraestructura de telecomunicaciones." }
+  ],
+  "proyectos": [
+    {
+      "id": 1,
+      "nombre": "Sistema de matrícula",
+      "descripcion": "Aplicación académica desarrollada en un curso.",
+      "tecnologias": ["Java", "PostgreSQL"],
+      "estado": "Finalizado"
+    },
+    {
+      "id": 2,
+      "nombre": "API REST Ventas",
+      "descripcion": "API REST con Laravel para administrar clientes, pedidos y productos.",
+      "tecnologias": ["Laravel", "PostgreSQL"],
+      "estado": "Finalizado"
+    },
+    {
+      "id": 3,
+      "nombre": "Sitio web personal",
+      "descripcion": "Portafolio personal con información dinámica.",
+      "tecnologias": ["WordPress", "JavaScript"],
+      "estado": "En desarrollo"
+    }
+  ]
+}
