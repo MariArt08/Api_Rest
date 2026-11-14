@@ -1,0 +1,114 @@
+.portafolio-contenedor {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    color: #333;
+    font-size: 1.2rem !important;
+    line-height: 1.7;
+}
+
+#portafolio-habilidades ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#portafolio-habilidades li {
+    background: #fff5f8 !important;
+    border: 1px solid #f8d7e3;
+    border-radius: 8px;
+    padding: 22px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem !important;
+    color: #7b2d4e !important;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.03);
+}
+
+#portafolio-habilidades li:hover {
+    background: #ffe4ec !important;
+    border-color: #f5b8cc;
+    color: #5c1a35 !important;
+    box-shadow: 0 6px 15px rgba(123, 45, 78, 0.1);
+    transform: translateY(-3px);
+}
+
+#portafolio-intereses, 
+#portafolio-proyectos {
+    background: #ffffff;
+    border: 1px solid #f8d7e3;
+    border-radius: 10px;
+    padding: 35px;
+    box-shadow: 0 4px 12px rgba(123, 45, 78, 0.05);
+    font-size: 1.2rem !important;
+}
+
+#portafolio-proyectos h3, 
+#portafolio-proyectos h4,
+#portafolio-intereses h3,
+#portafolio-intereses h4 {
+    color: #5c1a35 !important;
+    font-size: 1.5rem !important;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 12px;
+}
+
+#portafolio-intereses p,
+#portafolio-proyectos p {
+    color: #6a4c5a !important;
+    font-size: 1.15rem !important;
+    margin-bottom: 15px;
+}
+
+#portafolio-proyectos h3:first-child,
+#portafolio-intereses h3:first-child {
+    margin-top: 0;
+}
+
+#portafolio-proyectos ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 25px 0;
+}
+
+#portafolio-proyectos li {
+    background: #fce4ec !important;
+    color: #7b2d4e !important;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 1rem !important;
+    font-weight: 600;
+    border: 1px solid #f8bbd0;
+}
+
+.portafolio-error {
+    background-color: #fff5f5;
+    color: #c53030;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #feb2b2;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.1rem !important;
+}
+
+@media (max-width: 768px) {
+    #portafolio-habilidades ul {
+        grid-template-columns: 1fr;
+    }
+    .portafolio-contenedor {
+        padding: 20px 15px;
+    }
+    #portafolio-intereses, #portafolio-proyectos {
+        padding: 20px;
+    }
+}
